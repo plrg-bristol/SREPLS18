@@ -1,0 +1,26 @@
+title: SREPLS 18
+description: S-REPLS 18 at Bristol Watershed
+
+url: https://plrg-bristol.github.io/SREPLS18
+
+# Header Option
+# header: large
+
+plugins:
+  - jekyll-remote-theme
+
+remote_theme: brianmaierjr/long-haul
+
+sass:
+    style: compressed
+
+markdown: kramdown
+highlighter: rouge
+
+social:
+    github: plrg-brisol
+    twitter: PLRG_bristol
+    email: pl-rg@bristol.ac.uk
+
+navigation:
+  
