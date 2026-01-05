@@ -18,7 +18,7 @@ Talks are typically 20-30 minutes long given in person.  Proposals for talks on 
 
 ### Attendance
 
-<!-- Please register at <a href="https://www.eventbrite.com/e/717109883967/" target="_blank">EventBrite</a> if you wish to attend. -->
+Please <a href="https://forms.office.com/e/rqf06Nmcwc" target="_blank">register</a> if you wish to attend.
 
 <table>
   <tr>
