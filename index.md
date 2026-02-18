@@ -214,7 +214,7 @@ Please <a href="https://forms.office.com/e/rqf06Nmcwc" target="_blank">register<
     <td>Date</td><td>25th February, 2026</td>
   </tr>
   <tr>
-    <td>Time</td><td>Approx 10am - 6pm</td>
+    <td>Time</td><td>0900 - 1730</td>
   </tr>
   <tr>
     <td style="vertical-align:top">Venue</td>
