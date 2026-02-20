@@ -23,15 +23,15 @@ The South of England Regional Programming Language Seminar (*<a href="https://sr
   <tr>
     <td style="vertical-align:top">10:00 - 11:00</td>
     <td>
-      <b>A Programming Language for Lightweight Diagramming</b><br/>
-      <i>Sriram Krishnamurthi (Brown University)</i><br/>
+      <b>Bug Detection for the Masses: A (True) Positive Experience</b><br/>
+      <i>Azalea Raad (Imperial College London)</i><br/>
       <details><summary>Abstract</summary>
-      <p>Formal modeling tools such as Alloy enable users to incrementally define, explore, verify, and diagnose specifications for complex systems. A critical component of these tools is a visualizer that lets users graphically explore generated models. However, a default visualizer that knows nothing about the domain can be unhelpful and can even actively violate presentational and cognitive principles. At the other extreme, full-blown custom visualization requires significant effort as well as knowledge that a tool user might not possess. Custom visualizations can also exhibit bad (even silent) failures. The same needs and demands apply to programming languages, which are virtually never accompanied by data structure visualizers.
-      </p>
-      <p>We chart a middle ground between the extremes of default and fully-customizable visualization. We capture essential domain information for lightweight diagramming. To identify key elements of these diagrams, we ground the design in both cognitive science and in a corpus of custom visualizations. We distill from these sources a small set of orthogonal primitives, and use the primitives to guide a diagramming language.
-      </p>
-      <p>We show how to endow the diagramming language with a spatial semantics and prove that it enjoys key properties. We also show how it can be embedded into three very different languages: Python, Rust, and Pyret. We present a novel counterfactual debugging aid for diagramming errors, combining textual and visual output. We evaluate the language and system for expressiveness, performance, and diagnostic quality. We thus define a new point in the design space of diagramming: through a language that is lightweight, effective, and driven by cognitively sound principles.
-      </p>
+      Incorrectness Logic (IL), introduced in 2020, provides a logical foundation for under-approximate program analysis aimed at true bug detection. A defining feature of IL-based analyses is their no-false-positives guarantee: every reported bug corresponds to a real defect. In this talk, I will present an overview of our work on IL over the past five years, spanning both theoretical advances and industrial deployments. I will discuss extensions of IL that enable:
+      <ol>
+      <li> compositional reasoning via separation logic, leading to the Pulse-X analyser deployed at Meta;</li>
+      <li> reasoning about program divergence (non-termination), culminating in the Pulse∞ analyser deployed at Meta and Bloomberg; and </li>
+      <li> bug detection for unsafe Rust code, resulting in the Soteria static analysis engine and the formation of Soteria Tools Ltd.</li>
+      </ol>
       </details>
     </td>
   </tr>
@@ -97,8 +97,16 @@ The South of England Regional Programming Language Seminar (*<a href="https://sr
   <tr>
     <td style="vertical-align:top">14:00 - 15:00</td>
     <td>
-      <b>Title TBC</b><br/>
-      <i>Azalea Raad (Imperial College London)</i>
+      <b>A Programming Language for Lightweight Diagramming</b><br/>
+      <i>Sriram Krishnamurthi (Brown University)</i><br/>
+      <details><summary>Abstract</summary>
+      <p>Formal modeling tools such as Alloy enable users to incrementally define, explore, verify, and diagnose specifications for complex systems. A critical component of these tools is a visualizer that lets users graphically explore generated models. However, a default visualizer that knows nothing about the domain can be unhelpful and can even actively violate presentational and cognitive principles. At the other extreme, full-blown custom visualization requires significant effort as well as knowledge that a tool user might not possess. Custom visualizations can also exhibit bad (even silent) failures. The same needs and demands apply to programming languages, which are virtually never accompanied by data structure visualizers.
+      </p>
+      <p>We chart a middle ground between the extremes of default and fully-customizable visualization. We capture essential domain information for lightweight diagramming. To identify key elements of these diagrams, we ground the design in both cognitive science and in a corpus of custom visualizations. We distill from these sources a small set of orthogonal primitives, and use the primitives to guide a diagramming language.
+      </p>
+      <p>We show how to endow the diagramming language with a spatial semantics and prove that it enjoys key properties. We also show how it can be embedded into three very different languages: Python, Rust, and Pyret. We present a novel counterfactual debugging aid for diagramming errors, combining textual and visual output. We evaluate the language and system for expressiveness, performance, and diagnostic quality. We thus define a new point in the design space of diagramming: through a language that is lightweight, effective, and driven by cognitively sound principles.
+      </p>
+      </details>
     </td>
   </tr>
   <tr>
