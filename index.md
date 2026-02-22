@@ -98,7 +98,7 @@ The South of England Regional Programming Language Seminar (*<a href="https://sr
     <td style="vertical-align:top">14:00 - 15:00</td>
     <td>
       <b>A Programming Language for Lightweight Diagramming</b><br/>
-      <i>Sriram Krishnamurthi (Brown University)</i><br/>
+      <i>Shriram Krishnamurthi (Brown University)</i><br/>
       <details><summary>Abstract</summary>
       <p>Formal modeling tools such as Alloy enable users to incrementally define, explore, verify, and diagnose specifications for complex systems. A critical component of these tools is a visualizer that lets users graphically explore generated models. However, a default visualizer that knows nothing about the domain can be unhelpful and can even actively violate presentational and cognitive principles. At the other extreme, full-blown custom visualization requires significant effort as well as knowledge that a tool user might not possess. Custom visualizations can also exhibit bad (even silent) failures. The same needs and demands apply to programming languages, which are virtually never accompanied by data structure visualizers.
       </p>
